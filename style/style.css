@@ -21,6 +21,38 @@ nav .logo{
     font-size: 24px;
 }
 
+.searchBox {
+    /* margin-top: 7px; */
+    background: #d0d4db;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searchButton{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.searchBox .searchInput{
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    transition: 0.4s;
+    outline: none;
+    
+}
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+    border: none;
+}
+
+.searchBox:hover > .searchButton {
+    background-color: transparent;
+    border: none;
+}
+
 ul{
     margin-right: 45px;
     margin-top: 7px;
@@ -46,6 +78,12 @@ nav ul li #home-nav{
 nav ul li #home-nav:hover{
     color: gray;
     cursor: pointer;
+}
+
+.product-categories,.sub-product-categories{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
 }
 
 .main{
