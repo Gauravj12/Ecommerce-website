@@ -3,278 +3,301 @@
             "id": 101,
             "products_101": [
                 {
-                    "id": 59,
+                    "pid": 1,
+                    "row": "products_101",
                     "title": "Mufti Casual Solid Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
                     "category": "men",
                     "subcategory": "shirts",
-                    "thumbnail": "/images/shirt_men_01.jpg"
+                    "thumbnail": "/images/1.webp"
                 },
                 {
-                    "id": 88,
+                    "pid": 2,
+                    "row": "products_101",
                     "title": "Allen Solly Casual Cargo",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
                     "category": "men",
                     "subcategory": "pants",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/2.webp"
                 },
                 {
-                    "id": 18,
-                    "title": "Addidas All Seasons Hoodie",
+                    "pid": 3,
+                    "row": "products_101",
+                    "title": "Addidas Sport Hoodie",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
                     "category": "men",
                     "subcategory": "hoodies",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/3.webp"
                 },
                 {
-                    "id": 95,
+                    "pid": 4,
+                    "row": "products_101",
                     "title": "Marathe Paithni Saree",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "sarees",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/4.webp"
                 },
                 {
-                    "id": 96,
-                    "title": "Van Heusen Red Party Wear Dress",
+                    "pid": 5,
+                    "row": "products_101",
+                    "title": "Van Heusen Red Party Wear",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "dresses",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/5.webp"
                 },
                 {
-                    "id": 97,
+                    "pid": 6,
+                    "row": "products_101",
                     "title": "Biba Cotton Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "kurtis",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/6.webp"
                 },
                 {
-                    "id": 98,
-                    "title": "Boys V Neck Printed Tshirt",
+                    "pid": 7,
+                    "row": "products_101",
+                    "title": "Boys Cotton Printed Tshirt",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "tshirts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/7.webp"
                 },
                 {
-                    "id": 99,
+                    "pid": 8,
+                    "row": "products_101",
                     "title": "Boys Cargo Shorts",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "shorts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/8.webp"
                 },
                 {
-                    "id": 100,
-                    "title": "Trendy Printed Cotton Hoodie",
+                    "pid": 9,
+                    "row": "products_101",
+                    "title": "Trendy Cotton Hoodie",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "winterwear",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
-                }
-		],
-            "products_102": [
+                    "thumbnail": "/images/9.webp"
+                },
                 {
-                    "id": 59,
-                    "title": "Raymond Formal Solid Shirt",
+                    "pid": 10,
+                    "row": "products_102",
+                    "title": "Raymond Formal Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
                     "category": "men",
                     "subcategory": "shirts",
-                    "thumbnail": "/images/shirt_men_01.jpg"
+                    "thumbnail": "/images/10.webp"
                 },
                 {
-                    "id": 88,
+                    "pid": 11,
+                    "row": "products_102",
                     "title": "Levi's Denim Jeanse",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
                     "category": "men",
                     "subcategory": "pants",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/11.webp"
                 },
                 {
-                    "id": 18,
+                    "pid": 12,
+                    "row": "products_102",
                     "title": "Nike Sports Hoodie",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
                     "category": "men",
                     "subcategory": "hoodies",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/12.webp"
                 },
                 {
-                    "id": 95,
-                    "title": "Bengal Silk Saree",
+                    "pid": 13,
+                    "row": "products_102",
+                    "title": "Woven Silk Saree",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "sarees",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/13.webp"
                 },
                 {
-                    "id": 96,
-                    "title": "H&M Casual Dress",
+                    "pid": 14,
+                    "row": "products_102",
+                    "title": "Kotty Black Dress",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "dresses",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/14.webp"
                 },
                 {
-                    "id": 97,
-                    "title": "Manyvar Printed Kurti",
+                    "pid": 15,
+                    "row": "products_102",
+                    "title": "Dharma Women Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "kurtis",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/15.webp"
                 },
                 {
-                    "id": 98,
+                    "pid": 16,
+                    "row": "products_102",
                     "title": "Boys Trendy T-shirt",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "tshirts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/16.webp"
                 },
                 {
-                    "id": 99,
+                    "pid": 17,
+                    "row": "products_102",
                     "title": "Boys Printed Shorts",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "shorts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/17.webp"
                 },
                 {
-                    "id": 100,
-                    "title": "Plain Polyster Jacket",
+                    "pid": 18,
+                    "row": "products_102",
+                    "title": "GINI & JONY Jacket",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "winterwear",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
-                }
-		],
-            "products_103": [
+                    "thumbnail": "/images/18.webp"
+                },
                 {
-                    "id": 59,
+                    "pid": 19,
+                    "row": "products_103",
                     "title": "Cotton King Formal Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
                     "category": "men",
                     "subcategory": "shirts",
-                    "thumbnail": "/images/shirt_men_01.jpg"
+                    "thumbnail": "/images/19.webp"
                 },
                 {
-                    "id": 88,
-                    "title": "Peter Englend Casual Trouser",
+                    "pid": 20,
+                    "row": "products_103",
+                    "title": "Tanip Casual Trouser",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
                     "category": "men",
                     "subcategory": "pants",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/20.webp"
                 },
                 {
-                    "id": 18,
+                    "pid": 21,
+                    "row": "products_103",
                     "title": "Puma Zipper",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
                     "category": "men",
                     "subcategory": "hoodies",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/21.webp"
                 },
                 {
-                    "id": 95,
+                    "pid": 22,
+                    "row": "products_103",
                     "title": "Banarasi Cotton Saree",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "sarees",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/22.webp"
                 },
                 {
-                    "id": 96,
-                    "title": "Zara Casual Dress",
+                    "pid": 23,
+                    "row": "products_103",
+                    "title": "Zara Crepe Dress",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "dresses",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/23.webp"
                 },
                 {
-                    "id": 97,
+                    "pid": 24,
+                    "row": "products_103",
                     "title": "Fabindia Trendy Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
                     "subcategory": "kurtis",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/24.webp"
                 },
                 {
-                    "id": 98,
+                    "pid": 25,
+                    "row": "products_103",
                     "title": "Boys Printed Hoodie",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "tshirts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/25.webp"
                 },
                 {
-                    "id": 99,
+                    "pid": 26,
+                    "row": "products_103",
                     "title": "Boys Trendy Joggers",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "shorts",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/26.webp"
                 },
                 {
-                    "id": 100,
+                    "pid": 27,
+                    "row": "products_103",
                     "title": "Kids Cotton Zipper",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
                     "subcategory": "winterwear",
-                    "thumbnail": "/images/pexels-pixabay-47037.jpg"
+                    "thumbnail": "/images/27.webp"
                 }
 		]
 	}

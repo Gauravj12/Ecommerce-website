@@ -1,20 +1,21 @@
-
+var cartArr=[]
 var dataRow1
 var dataRow2
 var dataRow3
+var navCart=document.querySelector('#navCart')
+
 fetch("/data/products.json")
 .then(response => {
    return response.json();
 })
-.then(data => {console.log(data[0].products_101)
+.then(data => { 
+    //console.log(data[0].products_101)
     //dataRow1 = JSON.stringify(data[0].products)
     dataRow1 = data[0].products_101
     dataRow2 = data[0].products_102
     dataRow3 = data[0].products_103
-    console.log('dataRows',data[0])
-    let row1 = document.getElementById('row_1');
-    let row2 = document.getElementById('row_2');
-    let row3 = document.getElementById('row_3');
+    //console.log('dataRows',data[0])
+    let row1 = document.getElementById('row');
     let starsvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
     </svg>`
@@ -29,109 +30,60 @@ fetch("/data/products.json")
     <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4"/>
   </svg>`
 
-   dataRow1.map((product) => {
-    row1.innerHTML += `<div class="card" style="width: 18rem;">
-    <img style="height: 50%"; src=${product.thumbnail} class="class="card-img-top" alt="...">
-    <div class="card-body mt-3 mb-3">
-      <div class="row">
-        <div class="col-10">
-          <h4 class="card-title">${product.title}</h4>
-          <p class="card-text">
-            <span>${starsvg}</span>
-            <span>${starsvg}</span>
-            <span>${halfblankstarsvg}</span>
-            <span>${blankstarsvg}</span>
-            <span>${blankstarsvg}</span>
-            (${product.ratings})
-          </p>
-        </div>
-        <div class="col-2">
-          <span>${bookmark}</span>
-        </div>
+  
+   dataRow1.map((product, index) => {
+    var row='products_101'
+    row1.innerHTML += `<div class="col">
+    <div class="card">
+      <img src=${product.thumbnail} class="card-img-top" alt=${product.title} height= "300em";>
+      <div class="card-body">
+        <h5 class="card-title">${product.title}</h5>
+        <div class="row">
+      <div class="col-10">
+        <p class="card-text">
+          <span>${starsvg}</span>
+          <span>${starsvg}</span>
+          <span>${halfblankstarsvg}</span>
+          <span>${blankstarsvg}</span>
+          <span>${blankstarsvg}</span>
+          (${product.ratings})
+        </p>
+      </div>
+      <div class="col-2">
+        <span>${bookmark}</span>
       </div>
     </div>
-     <div class="row align-items-center text-center g-0">
-     <div class="col-4">
-       <h5>&#8377;${product.price}</h5>
-     </div>
-     <div class="col-8">
-       <a href="#" class="btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</a>
-     </div>
+    
+  </div>
+  <div class="row align-items-center text-center g-0">
+   <div class="col-4">
+     <h5>&#8377;${product.price}</h5>
    </div>
+   <div class="col-8">
+     <button onclick="pushToCart(${index})" row=${product.row} id="addToCartBtn" class="btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</button>
+   </div>
+ </div>
+      </div>
     </div>
   </div><br>
 `
 
-});
-
-dataRow2.map((product) => {
-  row2.innerHTML += `<div class="card" style="width: 18rem;">
-  <img style="height: 50%"; src=${product.thumbnail} class="class="card-img-top" alt="...">
-  <div class="card-body mt-3 mb-3">
-    <div class="row">
-      <div class="col-10">
-        <h4 class="card-title">${product.title}</h4>
-        <p class="card-text">
-          <span>${starsvg}</span>
-          <span>${starsvg}</span>
-          <span>${halfblankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          ((${product.ratings}))
-        </p>
-      </div>
-      <div class="col-2">
-        <span>${bookmark}</span>
-      </div>
-    </div>
-  </div>
-   <div class="row align-items-center text-center g-0">
-   <div class="col-4">
-     <h5>&#8377;${product.price}</h5>
-   </div>
-   <div class="col-8">
-     <a href="#" class="btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</a>
-   </div>
- </div>
-  </div>
-</div><br>
-`
-});
-
-dataRow3.map((product) => {
-  row3.innerHTML += `<div class="card" style="width: 18rem;">
-  <img style="height: 50%"; src=${product.thumbnail} class="class="card-img-top" alt="...">
-  <div class="card-body mt-3 mb-3">
-    <div class="row">
-      <div class="col-10">
-        <h4 class="card-title">${product.title}</h4>
-        <p class="card-text">
-          <span>${starsvg}</span>
-          <span>${starsvg}</span>
-          <span>${halfblankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          ((${product.ratings}))
-        </p>
-      </div>
-      <div class="col-2">
-        <span>${bookmark}</span>
-      </div>
-    </div>
-  </div>
-   <div class="row align-items-center text-center g-0">
-   <div class="col-4">
-     <h5>&#8377;${product.price}</h5>
-   </div>
-   <div class="col-8">
-     <a href="#" class="btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</a>
-   </div>
- </div>
-  </div>
-</div><br>
-`
-});
 
 });
 
 
+var card = document.querySelector(".card")
+var addToCartBtn = document.querySelector('#addToCartBtn');
+   pushToCart = (a)=>{
+ // console.log('data',data[0].products_101[a])
+ cartArr.push(data[0].products_101[a])
+ localStorage.setItem('productCart',JSON.stringify(cartArr))
+ console.log(cartArr)
+    navCart.innerHTML=cartArr.length
+    
+  }
+
+ // addToCartBtn.addEventListener('click', pushToCart)
+
+
+});
