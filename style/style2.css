@@ -1,0 +1,31 @@
+#product-nav{
+    cursor: pointer;
+}
+
+/* #product-categories{
+    min-width: unset;
+} */
+
+#product-categories li{
+   list-style-type: none;
+}
+
+#product-categories div{
+    background-color: aqua; 
+    border-radius: 15em;
+}
+
+#product-categories li:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#child_nav {
+    display: none;
+}
+
+#parent_nav:hover #child_nav {
+    display: block;
+}
+
+

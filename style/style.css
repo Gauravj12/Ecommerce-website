@@ -8,6 +8,10 @@ body{
     background-color: #eee;
 }
 
+.container-fluid{
+    padding: 0;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -19,6 +23,11 @@ nav{
 nav .logo{
     margin-left: 22px;
     font-size: 24px;
+}
+
+.logo h1{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .searchBox {
@@ -80,15 +89,24 @@ nav ul li #home-nav:hover{
     cursor: pointer;
 }
 
-.product-categories,.sub-product-categories{
+nav ul li{
+    cursor: pointer;
+}
+
+.product-categories{
     display: flex;
     justify-content: space-around;
     background-color: aqua;
+    display: none;
 }
 
 .main{
     display: flex;
     justify-content: space-around;
+}
+
+#man_section,#woman_section,#kids_section{
+    display: none;
 }
 
 .main .main-text{

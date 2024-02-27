@@ -1,8 +1,29 @@
-var cartArr=[]
+let productnav=document.querySelector('#product-nav')
 var dataRow1
 var dataRow2
 var dataRow3
 var navCart=document.querySelector('#navCart')
+let man_category_link = document.querySelector("#man_category")
+let woman_category_link = document.querySelector("#woman_category")
+let kids_category_link = document.querySelector("#kids_category")
+let main_section=document.querySelector("#main_section")
+let man_section=document.querySelector("#man_section")
+let woman_section=document.querySelector("#woman_section")
+let kids_section=document.querySelector("#kids_section")
+let trends=document.querySelector('#trends')
+let h1text1=document.querySelector('#h1text1')
+let h1text2=document.querySelector('#h1text2')
+let imgsrc=document.querySelector('#imgsrc')
+let ptext=document.querySelector('#ptext')
+let pagelink=document.querySelector('#pagelink')
+let active_section = 'main'
+
+
+
+
+//productnav.addEventListener('click',displayProductCategories)
+
+
 
 fetch("/data/products.json")
 .then(response => {
@@ -12,8 +33,8 @@ fetch("/data/products.json")
     //console.log(data[0].products_101)
     //dataRow1 = JSON.stringify(data[0].products)
     dataRow1 = data[0].products_101
-    dataRow2 = data[0].products_102
-    dataRow3 = data[0].products_103
+    //dataRow2 = data[0].products_102
+    //dataRow3 = data[0].products_103
     //console.log('dataRows',data[0])
     let row1 = document.getElementById('row');
     let starsvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -32,58 +53,43 @@ fetch("/data/products.json")
 
   
    dataRow1.map((product, index) => {
-    var row='products_101'
-    row1.innerHTML += `<div class="col">
-    <div class="card">
-      <img src=${product.thumbnail} class="card-img-top" alt=${product.title} height= "300em";>
-      <div class="card-body">
-        <h5 class="card-title">${product.title}</h5>
-        <div class="row">
-      <div class="col-10">
-        <p class="card-text">
-          <span>${starsvg}</span>
-          <span>${starsvg}</span>
-          <span>${halfblankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          <span>${blankstarsvg}</span>
-          (${product.ratings})
-        </p>
-      </div>
-      <div class="col-2">
-        <span>${bookmark}</span>
-      </div>
-    </div>
     
-  </div>
-  <div class="row align-items-center text-center g-0">
-   <div class="col-4">
-     <h5>&#8377;${product.price}</h5>
-   </div>
-   <div class="col-8">
-     <button onclick="pushToCart(${index})" row=${product.row} id="addToCartBtn" class="btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</button>
-   </div>
- </div>
+    var row='products_101'
+    row1.innerHTML += `<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card rounded shadow-sm border-0">
+      <div class="card-body p-4"><img src=${product.thumbnail} alt="" class="img-fluid d-block mx-auto mb-3" style="
+      height: 15em;width: 20vw;"><a href="/pages/product_card.html"><h5> <button onclick="pushToCart(${index})" row=${product.row} class="text-dark" style="border: none; background-color: transparent;">${product.brand}</button></h5></a>
+        <p class="small text-muted font-italic">${product.title}</p>
+        <ul class="list-inline small">
+          <li class="list-inline-item m-0">${starsvg}</li>
+          <li class="list-inline-item m-0">${starsvg}</li>
+          <li class="list-inline-item m-0">${starsvg}</li>
+          <li class="list-inline-item m-0">${halfblankstarsvg}</li>
+          <li class="list-inline-item m-0">${blankstarsvg}</li>
+        </ul>
       </div>
     </div>
-  </div><br>
+  </div>
 `
 
-
 });
+let selected_product
 
-
-var card = document.querySelector(".card")
-var addToCartBtn = document.querySelector('#addToCartBtn');
-   pushToCart = (a)=>{
+ pushToCart = (a)=>{
  // console.log('data',data[0].products_101[a])
- cartArr.push(data[0].products_101[a])
- localStorage.setItem('productCart',JSON.stringify(cartArr))
- console.log(cartArr)
-    navCart.innerHTML=cartArr.length
+ //cartArr.push(data[0].products_101[a])
+ //localStorage.setItem('productCart',JSON.stringify(cartArr))
+ selected_product=data[0].products_101[a]
+ localStorage.setItem('selectedProduct',JSON.stringify(selected_product))
+ console.log('1',selected_product)
+
+// let selectedProduct=localStorage.getItem('selectedProduct');
+// let currentProduct=JSON.parse(selectedProduct);
+// console.log('2',currentProduct)
+
+//navCart.innerHTML=cartArr.length
     
   }
-
- // addToCartBtn.addEventListener('click', pushToCart)
 
 
 });

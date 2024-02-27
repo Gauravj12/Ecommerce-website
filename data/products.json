@@ -5,7 +5,8 @@
                 {
                     "pid": 1,
                     "row": "products_101",
-                    "title": "Mufti Casual Solid Shirt",
+                    "brand":"Mufti",
+                    "title": "Casual Solid Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
@@ -16,7 +17,8 @@
                 {
                     "pid": 2,
                     "row": "products_101",
-                    "title": "Allen Solly Casual Cargo",
+                    "brand":"Allen Solly",
+                    "title": "Casual Cargo",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
@@ -27,7 +29,8 @@
                 {
                     "pid": 3,
                     "row": "products_101",
-                    "title": "Addidas Sport Hoodie",
+                    "brand":"Addidas",
+                    "title": "Sport Hoodie",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
@@ -38,7 +41,8 @@
                 {
                     "pid": 4,
                     "row": "products_101",
-                    "title": "Marathe Paithni Saree",
+                    "brand":"Marathe",
+                    "title": "Paithni Saree",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -49,7 +53,8 @@
                 {
                     "pid": 5,
                     "row": "products_101",
-                    "title": "Van Heusen Red Party Wear",
+                    "brand":"Van Heusen",
+                    "title": "Red Party Wear",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
@@ -60,7 +65,8 @@
                 {
                     "pid": 6,
                     "row": "products_101",
-                    "title": "Biba Cotton Kurti",
+                    "brand":"Biba",
+                    "title": "Cotton Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -71,6 +77,7 @@
                 {
                     "pid": 7,
                     "row": "products_101",
+                    "brand":"Kids Fashion",
                     "title": "Boys Cotton Printed Tshirt",
                     "price": 930,
                     "subtitle": 1,
@@ -82,6 +89,7 @@
                 {
                     "pid": 8,
                     "row": "products_101",
+                    "brand":"Rancho",
                     "title": "Boys Cargo Shorts",
                     "price": 930,
                     "subtitle": 1,
@@ -93,6 +101,7 @@
                 {
                     "pid": 9,
                     "row": "products_101",
+                    "brand":"Ginee",
                     "title": "Trendy Cotton Hoodie",
                     "price": 930,
                     "subtitle": 1,
@@ -104,7 +113,8 @@
                 {
                     "pid": 10,
                     "row": "products_102",
-                    "title": "Raymond Formal Shirt",
+                    "brand":"Raymond",
+                    "title": "Formal Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
@@ -115,7 +125,8 @@
                 {
                     "pid": 11,
                     "row": "products_102",
-                    "title": "Levi's Denim Jeanse",
+                    "brand":"Levi's",
+                    "title": "Denim Jeanse",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
@@ -126,7 +137,8 @@
                 {
                     "pid": 12,
                     "row": "products_102",
-                    "title": "Nike Sports Hoodie",
+                    "brand":"Nike",
+                    "title": "Sports Hoodie",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
@@ -137,6 +149,7 @@
                 {
                     "pid": 13,
                     "row": "products_102",
+                    "brand":"Kiaraa",
                     "title": "Woven Silk Saree",
                     "price": 930,
                     "subtitle": 1,
@@ -148,7 +161,8 @@
                 {
                     "pid": 14,
                     "row": "products_102",
-                    "title": "Kotty Black Dress",
+                    "brand":"Kotty",
+                    "title": "Black Dress",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
@@ -159,7 +173,8 @@
                 {
                     "pid": 15,
                     "row": "products_102",
-                    "title": "Dharma Women Kurti",
+                    "brand":"Dharma",
+                    "title": "Women Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -170,6 +185,7 @@
                 {
                     "pid": 16,
                     "row": "products_102",
+                    "brand":"John Players",
                     "title": "Boys Trendy T-shirt",
                     "price": 930,
                     "subtitle": 1,
@@ -181,6 +197,7 @@
                 {
                     "pid": 17,
                     "row": "products_102",
+                    "brand":"Mikey",
                     "title": "Boys Printed Shorts",
                     "price": 930,
                     "subtitle": 1,
@@ -192,7 +209,8 @@
                 {
                     "pid": 18,
                     "row": "products_102",
-                    "title": "GINI & JONY Jacket",
+                    "brand":"GINI & JONY",
+                    "title": "Kids Jacket",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -203,7 +221,8 @@
                 {
                     "pid": 19,
                     "row": "products_103",
-                    "title": "Cotton King Formal Shirt",
+                    "brand":"Cotton King",
+                    "title": "Formal Shirt",
                     "price": 20,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
@@ -214,7 +233,8 @@
                 {
                     "pid": 20,
                     "row": "products_103",
-                    "title": "Tanip Casual Trouser",
+                    "brand":"Tanip",
+                    "title": "Casual Trouser",
                     "price": 29,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
@@ -225,7 +245,8 @@
                 {
                     "pid": 21,
                     "row": "products_103",
-                    "title": "Puma Zipper",
+                    "brand":"Puma",
+                    "title": "Zipper Jacket",
                     "price": 40,
                     "subtitle": 2,
                     "ratings": 80,
@@ -236,7 +257,8 @@
                 {
                     "pid": 22,
                     "row": "products_103",
-                    "title": "Banarasi Cotton Saree",
+                    "brand":"Banarasi",
+                    "title": "Cotton Saree",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -247,7 +269,8 @@
                 {
                     "pid": 23,
                     "row": "products_103",
-                    "title": "Zara Crepe Dress",
+                    "brand":"Zara",
+                    "title": "Crepe Dress",
                     "price": 932,
                     "subtitle": 1,
                     "ratings": 930,
@@ -258,7 +281,8 @@
                 {
                     "pid": 24,
                     "row": "products_103",
-                    "title": "Fabindia Trendy Kurti",
+                    "brand":"Fabindia",
+                    "title": "Trendy Kurti",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
@@ -269,6 +293,7 @@
                 {
                     "pid": 25,
                     "row": "products_103",
+                    "brand":"GINI & JONY",
                     "title": "Boys Printed Hoodie",
                     "price": 930,
                     "subtitle": 1,
@@ -280,6 +305,7 @@
                 {
                     "pid": 26,
                     "row": "products_103",
+                    "brand":"GINI & JONY",
                     "title": "Boys Trendy Joggers",
                     "price": 930,
                     "subtitle": 1,
@@ -291,6 +317,7 @@
                 {
                     "pid": 27,
                     "row": "products_103",
+                    "brand":"Mikey",
                     "title": "Kids Cotton Zipper",
                     "price": 930,
                     "subtitle": 1,
