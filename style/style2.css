@@ -36,4 +36,11 @@
     display: block;
 } */
 
+#footer{
+    background-color: #415161;
+}
 
+#footer .row{
+    padding: 2%;
+    color: #FFFFFF;
+}

@@ -31,29 +31,11 @@
           <li class="nav-item mx-3 dropdown">
             <a class="nav-link" id="product-nav" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
            <ul id="product-categories" class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li id="parent_nav"><a class="dropdown-item">Men</a>
-            <ul id="child_nav">
-              <li><a href="/pages/men_products.html">All Products</a></li>
-              <li onclick="selectSubCategory('shirts')" id="shirts">Shirts</li>
-              <li onclick="selectSubCategory('pants')" id="pants">Pants</li>
-              <li onclick="selectSubCategory('hoodies')" id="hoodies">Hoodies</li>
-            </ul>
+            <li id="parent_nav"><a href="/pages/men_products.html" class="dropdown-item">Men</a>
             </li>
-            <li id="parent_nav"><a class="dropdown-item">Women</a>
-              <ul id="child_nav">
-                <li><a href="/pages/women_products.html">All Products</a></li>
-                <li onclick="selectSubCategory('dresses')">Dresses</li>
-                <li onclick="selectSubCategory('kurtis')">Kurtis</li>
-                <li onclick="selectSubCategory('sarees')">Sarees</li>
-              </ul>
+            <li id="parent_nav"><a href="/pages/women_products.html" class="dropdown-item">Women</a>
             </li>
-            <li id="parent_nav"><a class="dropdown-item">Kids</a>
-              <ul id="child_nav">
-                <li><a href="/pages/kids_products.html">All Products</a></li>
-                <li onclick="selectSubCategory('tshirts')">T-shirts</li>
-                <li onclick="selectSubCategory('shorts')">Shorts</li>
-                <li onclick="selectSubCategory('winterwear')">Winter-wears</li>
-              </ul>
+            <li id="parent_nav"><a href="/pages/kids_products.html" class="dropdown-item">Kids</a>
             </li>
            </ul>
           </li>
@@ -104,10 +86,10 @@
 
         <div id="row" class="row row-cols-1 row-cols-md-4 g-4">
         </div>
-        
+        </div>
 
-        <div class="container">
-          <div class="row justify-content-around">
+        <div id="footer" class="container-fluid">
+          <div class="row">
             <div class="col">
                   <h5>Trends</h5>
                   <span>Service </span><br>
